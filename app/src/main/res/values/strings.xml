@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PersistenceSample</string>
+    <string name="sample_question_body">Qual é a pergunta?</string>
+    <string name="sample_question_time">19:30</string>
+    <string name="send">Enviar</string>
+    <string name="question_prompt">Faça uma pergunta</string>
+</resources>
