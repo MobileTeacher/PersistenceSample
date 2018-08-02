@@ -14,6 +14,11 @@ public class Question implements Serializable {
         this.moment = Calendar.getInstance().getTime();
     }
 
+    public Question(String text, Date moment) {
+        this.text = text;
+        this.moment = moment;
+    }
+
     public String getText() {
         return text;
     }
@@ -28,5 +33,10 @@ public class Question implements Serializable {
 
     public void setMoment(Date moment) {
         this.moment = moment;
+    }
+
+    @Override
+    public String toString() {
+        return text + "\n" + moment + "\n";
     }
 }
